@@ -2679,6 +2679,11 @@ text: '修養-',
 以下是測試用區塊
 <BTable :stickyHeader="true" :unsearch="true">
 	<tr>
+		<td bgcolor="#C4E1FF" colspan="11" style="text-align: center">
+			**離家出走**
+		</td>
+	</tr>
+     <tr>
 		<td :unsortable="true" style="text-align: center">行動</td>
 		<td :unsortable="true" style="text-align: center">事件結果</td>
 		<td :unsortable="true" style="text-align: center">貢獻</td>
@@ -2690,11 +2695,6 @@ text: '修養-',
 		<td :unsortable="true" style="text-align: center">名聲</td>
 		<td :unsortable="true" style="text-align: center">修養</td>
 		<td :unsortable="true" style="text-align: center">前置條件／補充說明</td>
-	</tr>
-	<tr>
-		<td bgcolor="#C4E1FF" colspan="11" style="text-align: center">
-			**離家出走**
-		</td>
 	</tr>
 	<tr>
 		<td rowspan="5" style="text-align: center">**釣魚**</td>
@@ -2710,7 +2710,6 @@ text: '修養-',
 		<td style="text-align: center">-</td>
 	</tr>
 	<tr>
-		<td style="text-align: center">-</td>
 		<td style="text-align: center">沒什麼收穫</td>
 		<td style="text-align: center">-</td>
 		<td style="text-align: center">20</td>
@@ -2723,42 +2722,35 @@ text: '修養-',
 		<td style="text-align: center">-</td>
 	</tr>
 	<tr>
-		<td>-</td>
-		<td rowspan="2">女式衣裙</td>
-		<td>-</td>
-		<td>30</td>
+		<td rowspan="3">女式衣裙</td>
 		<td rowspan="2">贏</td>
+		<td>30</td>
+	    <td>2</td>
+     	<td style="text-align: center">-</td>
 		<td style="text-align: center">
 			真的不是我：武學+2 道德+1 修養+1 處世-1 黃酒+1
 		</td>
 		<td style="text-align: center">2</td>
-		<td style="text-align: center">-</td>
 		<td style="text-align: center">1</td>
 		<td style="text-align: center">-</td>
-		<td style="text-align: center">1</td>
 		<td style="text-align: center">可以利用此事件刷黃酒</td>
 	</tr>
 	<tr>
 		<td>-</td>
-		<td>女式衣裙</td>
 		<td>-</td>
 		<td>30</td>
-		<td>贏</td>
+		<td>-</td>
 		<td style="text-align: center">扔水</td>
 		<td style="text-align: center">2</td>
-		<td style="text-align: center">-</td>
 		<td style="text-align: center">-1</td>
-		<td style="text-align: center">-</td>
 		<td style="text-align: center">-1</td>
 		<td style="text-align: center">-</td>
 	</tr>
 	<tr>
 		<td>-</td>
-		<td>女式衣裙</td>
-		<td>-</td>
-		<td>30</td>
 		<td>輸</td>
-		<td style="text-align: center">-</td>
+		<td>30</td>
+		<td>-</td>
 		<td style="text-align: center">-</td>
 		<td style="text-align: center">-</td>
 		<td style="text-align: center">-</td>
